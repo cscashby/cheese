@@ -1,2 +1,3 @@
 FROM linuxserver/nginx
-COPY html /usr/share/nginx/html
+COPY html /config/www
+
